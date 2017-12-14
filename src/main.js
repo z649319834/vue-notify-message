@@ -3,7 +3,7 @@ import App from './App.vue'
 import axios from "axios"
 Vue.prototype.$http=axios;
 //导入vue-notify-message
-import notifyMsg from "./vue-notify-message/index.js"
+import notifyMsg from "./lib/index.js"
 Vue.use(notifyMsg);
 
 new Vue({

@@ -1,6 +1,6 @@
 # vue-notify-message
 
-> 采用vue.js开发的消息弹层插件
+> 采用vue.js开发的消息弹层插件[github](https://github.com/z649319834/vue-nitify-message.git)
 
 ## Installation
 
@@ -21,7 +21,7 @@ Vue.use(notifyMsg)
 
 ## Examples
 
-![demo]()
+![demo](https://z649319834.github.io/demo/index.html)
 
 ## Documentation
 

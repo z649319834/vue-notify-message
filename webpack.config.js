@@ -1,12 +1,25 @@
 var path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/main.js',
+  //测试
+  /*entry: './src/main.js',
+  output: {
+    path: path.resolve(__dirname, './demo'),
+    publicPath: '/demo/',
+    filename: 'build.js'
+  },*/
+   
+  //发布npm包
+  entry: './src/lib/index.js', 
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js'
+    filename:"vue-notify-message.js",
+    library:"vue-notify-message",
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [
@@ -53,7 +66,14 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map'
+  devtool: '#eval-source-map',
+  /*plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'index.html',
+      inject: false
+    }),
+  ]*/
 }
 
 if (process.env.NODE_ENV === 'production') {
