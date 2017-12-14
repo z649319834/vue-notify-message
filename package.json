@@ -1,7 +1,7 @@
 {
   "name": "vue-notify-message",
   "description": "采用vue.js开发的消息弹层组件",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "zcz",
   "license": "MIT",
   "private": false,
