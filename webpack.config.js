@@ -4,15 +4,15 @@ var webpack = require('webpack')
 
 module.exports = {
   //测试
-  /*entry: './src/main.js',
+  entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './demo'),
     publicPath: '/demo/',
     filename: 'build.js'
-  },*/
+  },
    
   //发布npm包
-  entry: './src/lib/index.js', 
+  /*entry: './src/lib/index.js', 
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
@@ -20,7 +20,7 @@ module.exports = {
     library:"vue-notify-message",
     libraryTarget: 'umd',
     umdNamedDefine: true
-  },
+  },*/
   module: {
     rules: [
       {

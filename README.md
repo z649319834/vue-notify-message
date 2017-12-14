@@ -21,7 +21,7 @@ Vue.use(notifyMsg)
 
 ## Examples
 
-[demo](https://z649319834.github.io/demo/index.html)
+[demo](https://z649319834.github.io/vue-notify-message/demo/index.html)
 
 ## Documentation
 

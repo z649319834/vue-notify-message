@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="https://z649319834.github.io/vue-notify-message/demo/logo.png">
     <h1>{{ msg }}</h1>
     <h2 class="examples">Examples</h2>
     <ul class="buttons">
